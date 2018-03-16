@@ -25,7 +25,7 @@ DIST_FILES=$(DUA) $(LOGOS) $(COLL_KEYWORDS) $(VOC_ETHICAL_REVIEW_BOARD) $(VOC_PU
 #constant
 VERSION:=master
 INSTALL_PREFIX:=/tmp/rdm-ontology
-DIST_ZIP:=rdm-configurable-content-$(VERSION).tar.gz
+DIST_ZIP:=rdm-configurable-content-rimls-fnwi$(VERSION).tar.gz
 
 #targets
 .PHONY: build dist install $(BUILDINFO) $(JSON_SCHEMAS) $(CMS_EXT_RSRC_IDX)

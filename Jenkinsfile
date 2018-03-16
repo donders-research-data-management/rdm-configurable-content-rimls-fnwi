@@ -11,7 +11,7 @@ node {
         }
 
         stage('Archive') {
-			archiveArtifacts artifacts: '**/rdm-configurable-content-*', fingerprint: true
+			archiveArtifacts artifacts: '**/rdm-configurable-content-rimls-fnwi*', fingerprint: true
         }
     } finally {
         deleteDir()
